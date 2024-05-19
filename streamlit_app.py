@@ -63,8 +63,6 @@ elif aba_selecionada == 'Projeto Final':
 
     df_filtrado = df[(df['data'] >= data_inicial) & (df['data'] <= data_final)]
 
-    st.write(df_filtrado)
-
     x = df_filtrado['data']
     y = df_filtrado['preco']
 
